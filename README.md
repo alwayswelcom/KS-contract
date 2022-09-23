@@ -11,15 +11,15 @@ _NOTE: if you would like to to start a containerized development environment, ru
 
 ## Deploy
 
-Deploy the Klima tokens (KLIMA, sKLIMA, wsKLIMA).
+Deploy the tokens.
 ```
 npx hardhat run --network <network_name> ./scripts/deploy_KLIMA_Tokens.js
 ```
 
-Update `.env` with the KLIMA address from the previous step and with the BCT
-address and deploy the Klima treasury.
+Update `.env` with the address from the previous step and with the BCT
+address and deploy the treasury.
 ```
-npx hardhat run --network <network_name> ./scripts/deploy_KLIMA_treasury.js
+npx hardhat run --network <network_name> ./scripts/deploy_KS_treasury.js
 ```
 Note that sKLIMA is not set at the treasury contract and needs to be a separate
 transaction to add it as it stands.
