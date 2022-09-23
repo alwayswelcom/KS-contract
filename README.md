@@ -1,4 +1,4 @@
-# KlimaDAO contracts
+# KS
 
 ## Local Development
 
